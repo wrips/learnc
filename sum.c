@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     scanf("%d" , &a );
      printf("Enter the value of b\n");
     scanf("%d" , &b );
-    int sum = a + b;
+    int sum = a - b;
     printf("The answer will be : %d\n" , sum);
     return 0;
 }
